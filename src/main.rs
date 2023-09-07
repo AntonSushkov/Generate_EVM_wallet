@@ -103,6 +103,7 @@ fn main() -> Result<()> {
     running.store(false, Ordering::Relaxed); // Signal worker threads to stop
 
     println!("Saved {} wallets to wallets.txt", generated_wallets);
+    input("Press 'Enter' to close.");
     Ok(())
 }
 
