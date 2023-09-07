@@ -27,6 +27,16 @@ const INITIAL_CHARACTERS: usize = 8;
 const NUMBER_OF_REPEATED_CHARACTERS: usize = 8;
 ```
 
+## Installing Rust and Cargo.
+
+Install the required software from the link: https://doc.rust-lang.org/cargo/getting-started/installation.html
+
+## Launch.
+
+```
+cargo run --release
+```
+
 ## Donation:
 ```bash
 0x51b7f952bf7b34f82e083067ef06dfd7f70eb381
